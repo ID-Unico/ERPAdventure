@@ -1,0 +1,29 @@
+# Arquivos temporários
+bin/
+obj/
+
+# Arquivos de compilação
+*.exe
+*.dll
+*.pdb
+*.dll.config
+
+# Arquivos gerados pela ferramenta de construção
+*.csproj.user
+*.cache
+*.log
+
+# Diretórios gerados pela ferramenta de construção
+bin/
+obj/
+
+# Arquivos de metadados do NuGet
+*.opendb
+*.sqlite
+
+# Ferramentas
+_ReSharper*/
+*.resharper
+*.suo
+*.user
+*.sln.docstates
