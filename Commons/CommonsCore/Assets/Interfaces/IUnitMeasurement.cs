@@ -9,18 +9,7 @@ namespace CommonsCore.Assets.Interfaces
 {
     public interface IUnitMeasurement
     {
-     
-        string WarehouseUnitMeasurementCode { get; set; }
-        string WarehouseUnitMeasurementDescription { get; set; }
-        
-        string PurchaseUnitMeasurementCode { get; set; }
-        string PurchaseUnitMeasurementDescription { get; set; }
-        
-        string SaleUnitMeasurementCode { get; set; }
-        string SaleUnitMeasurementDescription { get; set; }
-        
-        string DensityMeasurementCode { get; set; }
-        string DensityMeasurementDescription { get; set; }
-        decimal DensityFactor { get; set; }
+        string UnitMeasurementCode { get; set; }
+        string UnitMeasurementDescription { get; set; }
     }
 }

@@ -11,11 +11,8 @@ namespace CommonsCore.Assets.Interfaces
     public interface IIdentification
     {
         Guid Id { get; set; }
-        EItemType ItemTypeId { get; set; }
-        string ItemTypeName { get; set; }
-        string ItemCode { get; set; }
-        string ItemDescription { get; set; }
-        string ItemComplement { get; set; }
-        string ItemBarCode { get; set; }
+        string AssetCode { get; set; }
+        string AssetDescription { get; set; }
+        string AssetComplement { get; set; }
     }
 }

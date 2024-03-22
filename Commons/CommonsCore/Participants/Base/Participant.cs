@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CommonsCore.Participants.Abstracts
+namespace CommonsCore.Participants.Base
 {
     public abstract class Participant : IParticipant
     {
